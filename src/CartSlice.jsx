@@ -10,7 +10,7 @@ const cartSlice = createSlice({
       if (existing) {
         existing.quantity += 1;
       } else {
-        state.items.push({ ...product, quantity: 1 });
+        state.items.push({ ...product, cost: product.cost ?? product.price, quantity: 1 });
       }
     },
     removeItem: (state, action) => {

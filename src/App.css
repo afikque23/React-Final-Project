@@ -13,7 +13,11 @@ nav button, .cart-button { background: none; border: 0; color: #637066; padding:
 nav button.active, nav button:hover { color: #23352a; }
 .cart-button { border: 1px solid #cad2c8; border-radius: 30px; color: #23352a; padding: 9px 15px; }
 .cart-button span { background: #d06e3a; border-radius: 50%; color: white; display: inline-block; font-size: 11px; height: 19px; line-height: 19px; margin-left: 6px; width: 19px; }
-.hero { align-items: center; background: linear-gradient(90deg, rgba(28,57,38,.85), rgba(28,57,38,.1)), url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=1800&q=85') center/cover; color: white; display: flex; min-height: 650px; padding: 8vw 12vw; }
+.background-image { background-image: linear-gradient(90deg, rgba(28,57,38,.85), rgba(28,57,38,.1)), url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=1800&q=85'); background-position: center; background-size: cover; }
+.hero { align-items: center; color: white; display: flex; min-height: 650px; padding: 8vw 12vw; }
+.category-section { margin-bottom: 65px; }
+.category-heading { border-bottom: 1px solid #d9ded6; font: 500 30px 'Playfair Display', serif; padding-bottom: 15px; }
+.continue-shopping { background: transparent; border: 1px solid #cad2c8; color: #23352a; margin-top: 12px; padding: 12px; width: 100%; }
 .hero-copy { max-width: 570px; }
 .eyebrow { color: #d06e3a; font-size: 11px; font-weight: 600; letter-spacing: 2px; margin: 0 0 18px; }
 h1, h2, h3, p { margin-top: 0; }
